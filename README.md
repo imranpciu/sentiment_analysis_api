@@ -21,6 +21,18 @@ Running the API Locally
       python manage.py runserver
   2. The API will be accessible at http://localhost:8000/sentiment/analyze/
 
+# API Usage
+To analyze the sentiment of a text, send a POST request to the /analyze endpoint with the following payload:
+{
+  "text": "Insert text to be analyzed here"
+}
+The API will respond with a JSON object containing the sentiment analysis result:
+{
+  "sentiment": "positive"
+}
+
+The frontend for interacting with the API can be accessed by opening the web browser and navigating to http://127.0.0.1:8000/sentiment/analyze/
+
 # Additional Information
  1. The frontend interface for the Sentiment Analysis API can be found in the templates/index.html file.
  2. The backend logic for sentiment analysis is implemented in the views.py file.
