@@ -15,11 +15,13 @@ Note: The following instructions are intended for Git Bash. Please make sure you
 
 
 # Dependencies
-Dependencies
   > python: 3.9.1
+
   > Django: 4.2.2
+
   > Transformers: 4.30.2
-  > Other dependencies : find on requerements.txt
+
+  > Other dependencies: You can find on requerements.txt
 
 Running the API Locally
   1. Start the Django development server
