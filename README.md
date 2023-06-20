@@ -2,13 +2,14 @@
 This project implements a Sentiment Analysis API using Django and a pre-trained sentiment analysis model.
 
 # Project Setup
-1. Ensure you have Python installed on your machine.
-2. Install the necessary dependencies using the package manager of your choice.
-   >> Virtual Environment Setup: Instruct the recipient to navigate to the project directory and run "pipenv --python 3.9.1" to create the virtual environment and install the                necessary dependencies.
-   >> Activate the Virtual Environment: Use "pipenv shell" to activate the virtual environment before proceeding further.
-4. Clone this repository to your local machine.
-5. Navigate to the project directory:
-            cd sentiment_analysis_api
+1. Navigate to the project directory:
+            "cd sentiment_analysis_api"
+2. Install the necessary dependencies and create a virtual environment:
+   . Virtual Environment Setup: Navigate to the project directory and run "pipenv install" to create the virtual environment and install the necessary dependencies.
+   . Activate the Virtual Environment: Use "pipenv shell" to activate the virtual environment before proceeding further.
+3. Run the project: "python manage.py runserver"
+
+Note: The following instructions are intended for Git Bash. Please make sure you have Git Bash installed and used these commands accordingly.
 
 
 # Dependencies
