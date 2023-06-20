@@ -3,15 +3,17 @@ This project implements a Sentiment Analysis API using Django and a pre-trained 
 
 # Project Setup
 1. Ensure you have Python installed on your machine.
-2. Install the necessary dependencies using the package manager of your choice (pip or Poetry).
-3. Clone this repository to your local machine.
-4. Navigate to the project directory:
+2. Install the necessary dependencies using the package manager of your choice.
+   >> Virtual Environment Setup: Instruct the recipient to navigate to the project directory and run "pipenv --python 3.9.1" to create the virtual environment and install the                necessary dependencies.
+   >> Activate the Virtual Environment: Use "pipenv shell" to activate the virtual environment before proceeding further.
+4. Clone this repository to your local machine.
+5. Navigate to the project directory:
             cd sentiment_analysis_api
 
 
 # Dependencies
 Dependencies
-  > python: 3.9.12
+  > python: 3.9.1
   > Django: 4.2.2
   > Transformers: 4.30.2
   > Other dependencies : find on requerements.txt
